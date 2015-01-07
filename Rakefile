@@ -12,4 +12,5 @@ Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'pomidoro'
   app.info_plist['LSUIElement'] = true
+  app.detect_dependencies = false
 end
