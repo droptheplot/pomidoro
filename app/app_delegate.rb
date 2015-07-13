@@ -11,7 +11,7 @@ class AppDelegate
 
     @menu = NSMenu.new
 
-    @menu_item = NSStatusBar.systemStatusBar.statusItemWithLength(NSVariableStatusItemLength).init
+    @menu_item = NSStatusBar.systemStatusBar.statusItemWithLength(-1).init
     @menu_item.setMenu(@menu)
     @menu_item.setHighlightMode(true)
     @menu_item.setImage(NSImage.imageNamed("icon"))
